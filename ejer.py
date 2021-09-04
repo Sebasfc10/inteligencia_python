@@ -90,3 +90,18 @@ colores = color * 25000
 suma = palabras + cms + colores
 print(f'este es el costo real que tendria tu anuncio clasificado : {suma}')
 
+"""
+Una empresa paga a sus empleados un bono por antigüedad que
+consiste en $100.000 por el primer año laboral y $120.000 por cada
+año siguiente. Realice un algoritmo que determine el monto del bono
+a pagar a un trabajador que tiene varios años en la empresa
+"""
+
+año = float(input('Ingresa tus años en la empresa: '))
+sueldo = float(input('ingrese su sueldo: '))
+if año == 1:
+    suma = sueldo + 100000
+    print(f'es su primer año laboral y su bono sera de 100k + salario,queda en : {suma}')
+else:
+    suma = sueldo + 120000
+    print(f'ya lleva varios años, su bono es de 120k + sueldo y queda en: {suma}')
