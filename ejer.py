@@ -31,3 +31,17 @@ Num. Pulsaciones = (200 – edad) /10.
 edad = float(input('ingrese aqui sue edad: '))
 numP = (200 - edad)/10
 print(f'tu numero de pulsaciones por 10 segundo son: {numP}')
+
+"""
+Tres personas deciden invertir su dinero para fundar una empresa.
+Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje
+que cada quien invierte con respecto a la cantidad total invertida.
+"""
+
+p1 = float(input('que cantidad deseas invertir, socio 1: '))
+p2 = float(input('que cantidad deseas invertir, socio 2: '))
+p3 = float(input('que cantidad deseas invertir, socio 3: '))
+
+porcentajE = (p1 + p2 + p3)/3
+print(f'este es el porcentaje de cada uno al momento de invertir: {porcentajE}')
+
