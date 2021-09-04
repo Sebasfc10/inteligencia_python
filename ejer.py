@@ -105,3 +105,17 @@ if año == 1:
 else:
     suma = sueldo + 120000
     print(f'ya lleva varios años, su bono es de 120k + sueldo y queda en: {suma}')
+    
+
+
+"""
+Una Universidad le paga a sus profesores $20.000 la hora y le hace
+un descuento del 5% por concepto de caja de ahorro. Determine el
+monto del descuento y el monto total a pagar al profesor.
+"""
+
+horas = float(input('ingrese su horas de trabajo: '))
+sueldo = horas * 20000
+CH = sueldo * 5/100
+descuento = sueldo - CH
+print(f'Su sueldo es {sueldo} pero se le descuenta  {CH} de caja de ahorro, su sueldo final es {descuento}')
