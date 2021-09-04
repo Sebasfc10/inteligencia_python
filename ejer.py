@@ -45,3 +45,14 @@ p3 = float(input('que cantidad deseas invertir, socio 3: '))
 porcentajE = (p1 + p2 + p3)/3
 print(f'este es el porcentaje de cada uno al momento de invertir: {porcentajE}')
 
+"""
+Un banco da a sus ahorradores un interes de 1.5% sobre el monto
+ahorrado. Teniendo como dato de entrada el saldo inicial del
+ahorrador determine el saldo final.
+"""
+saldo = float(input('ingrese su saldo: '))
+interes = saldo * 1.5/100
+suma = saldo + interes
+print(f'su ganancia por intereses es: {suma}')
+
+
