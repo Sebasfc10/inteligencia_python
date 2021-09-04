@@ -71,5 +71,22 @@ CH = sueldo * 5/100
 suma = sueldo + LPP + SS + SF + CH
 print(f'Es el total a pagar al trabajador: {suma}')
 
+"""
+El periódico el Informador cobra por un aviso clasificado un monto
+que depende del número de palabras, tamaño en cetímetros y
+número de colores. Cada palabra tiene un costo de $20.000, cada
+centímetro tiene un costo de $15.000 y cada color tiene un costo de
+$25.000. Realice un algoritmo que determine el monto a pagar por un
+aviso clasificado.
+"""
 
+palabra = float(input('ingrese el numero de palabras: '))
+palabras = palabra * 20000
+cm = float(input('ingrese cuantos centimetros tiene el anuncion: '))
+cms = cm * 15000
+color = float(input('ingrese cuantos colores tiene: '))
+colores = color * 25000
+
+suma = palabras + cms + colores
+print(f'este es el costo real que tendria tu anuncio clasificado : {suma}')
 
