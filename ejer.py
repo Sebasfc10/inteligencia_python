@@ -56,3 +56,20 @@ suma = saldo + interes
 print(f'su ganancia por intereses es: {suma}')
 
 
+"""
+Una empresa le hace los siguientes descuentos sobre el sueldo base
+a sus trabajadores: 1% por ley de politica pública, 4% por seguro
+social, 0.5% por seguro forzoso y 5% por caja de ahorro. Realice un algoritmo que determine el monto de cada descuento y el monto total
+a pagar al trabajador.
+"""
+
+sueldo = float(input('Ingrese su sueldo: '))
+LPP = sueldo * 1/100
+SS = sueldo * 4/100
+SF = sueldo * 0.5/100
+CH = sueldo * 5/100
+suma = sueldo + LPP + SS + SF + CH
+print(f'Es el total a pagar al trabajador: {suma}')
+
+
+
