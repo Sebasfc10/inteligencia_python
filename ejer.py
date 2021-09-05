@@ -197,3 +197,22 @@ if NEstadia == 1:
 if NEstadia > 1:
         habitacion = NEstadia * 200000
         print(f'te alojas {NEstadia} dias con un valor de {habitacion}')
+        
+"""
+El banco del Pueblo da microcréditos a empresarios para ser
+cancelados en un lapso de 2 años (24 meses). Al monto del
+préstamo se le cobra un interés del 24%. El empresario debe pagar
+la mitad del préstamo en 4 cuotas especiales y la otra mitad en 20
+cuotas ordinarias. Realice un algoritmo que teniendo como dato de
+entrada el monto del préstamo, determine el monto total a pagar por
+el préstamo, el monto de las cuotas especiales y el monto de las
+cuotas ordinarias.
+"""
+
+monto = float(input('ingrese el monto del prestamo que solicito : '))
+iva = monto * 24/100
+final = monto + iva
+es = (final / 2) /4
+ordinario = (final / 2)/ 20
+
+print(f'se debe pagar el monto total {final} pero los primeros cuantro meses se deben pagar {es} y la otra mitad del prestamo se debe pagar en 20 cuotas de {ordinario}')
