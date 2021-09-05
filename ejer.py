@@ -167,3 +167,16 @@ pagar.
 dias = float(input('ingrese los dias de alquiler : '))
 precio = dias * 1500
 print(f'el total a pagar es {precio} y el total de peliculas a alquilar son {dias}')
+
+"""
+Una Agencia de viajes cobra por un Tour a Cartagena $25.000
+diarios por persona. Realice un algoritmo que determine el monto a
+pagar por una familia que desee realizar dicho Tour sabiendo que
+también cobran el 12% de IVA.
+"""
+
+integrante = float(input('cuanto integrantes de la familian van al tour : '))
+costo = integrante * 25000
+iva = costo * 12/100
+final = costo + iva
+print(f'el total a pagar por una familia con {integrante} integrantes es de {final}')
