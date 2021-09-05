@@ -156,3 +156,14 @@ trauma = dinero * 30/100
 pediatra = dinero * 30/100
 print(f'el dinero que va destinado a el sector de la ginecologia es {ginecologia}, el dinero que va para el sector de la traumatologia es {trauma} y el dinero que destinado al ultimo sector que es pediatria es {pediatra}')
 
+"""
+Una video tienda alquila DVD a $1.500 el día. Tiene una promoción
+que consiste en dejar gratis el alquiler de una película. Realice un
+algoritmo que teniendo como dato de entrada el total de películas
+alquiladas, y el número de días de alquiler, determine el monto a
+pagar.
+"""
+
+dias = float(input('ingrese los dias de alquiler : '))
+precio = dias * 1500
+print(f'el total a pagar es {precio} y el total de peliculas a alquilar son {dias}')
