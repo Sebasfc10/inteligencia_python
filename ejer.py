@@ -145,3 +145,14 @@ iva = xfoto * 16/100
 costoF = xfoto + iva
 print(f'el total a pagar es :  {costoF} (incluye iva)')
 
+"""
+. En un hospital existen tres áreas: Ginecología, Pediatría y
+Traumatología. El presupuesto anual del hospital se reparte
+conforme a la siguiente tabla:
+"""
+dinero = float(input('ingrese el dinero que va destinado al hospital: '))
+ginecologia = dinero * 40/100
+trauma = dinero * 30/100
+pediatra = dinero * 30/100
+print(f'el dinero que va destinado a el sector de la ginecologia es {ginecologia}, el dinero que va para el sector de la traumatologia es {trauma} y el dinero que destinado al ultimo sector que es pediatria es {pediatra}')
+
