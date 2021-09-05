@@ -119,3 +119,16 @@ sueldo = horas * 20000
 CH = sueldo * 5/100
 descuento = sueldo - CH
 print(f'Su sueldo es {sueldo} pero se le descuenta  {CH} de caja de ahorro, su sueldo final es {descuento}')
+
+
+"""
+Un centro de comunicaciones alquilan tarjetas para realizar llamadas
+y cobran el monto consumido de la tarjeta mas un recargo del 20%.
+Teniendo como dato de entrada el monto inicial y el monto final de la
+tarjeta, determine el costo de la llamada.
+"""
+
+montoI = float(input('El monto inidial es: '))
+recargo = montoI * 20/100
+montof = montoI + recargo
+print(f'el monto final de la tarjeta es: {montof}')
