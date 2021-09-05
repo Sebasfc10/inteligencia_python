@@ -132,3 +132,16 @@ montoI = float(input('El monto inidial es: '))
 recargo = montoI * 20/100
 montof = montoI + recargo
 print(f'el monto final de la tarjeta es: {montof}')
+
+"""
+En una fototienda cobran por el revelado de un rollo $1.500 por cada
+foto. Realice un algoritmo que determine el monto a pagar por un
+revelado completo sabiendo que adiconalmente le cobran el IVA
+(16%).
+"""
+xrollo = float(input('¿de cual tipo es tu rollo de 24 o 36 fotos?: '))
+xfoto = xrollo * 1500
+iva = xfoto * 16/100
+costoF = xfoto + iva
+print(f'el total a pagar es :  {costoF} (incluye iva)')
+
