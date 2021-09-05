@@ -180,3 +180,20 @@ costo = integrante * 25000
 iva = costo * 12/100
 final = costo + iva
 print(f'el total a pagar por una familia con {integrante} integrantes es de {final}')
+
+"""
+Un Hotel 5 Estrellas de Santa Marta tiene una promoción para sus
+clientes. Cobra por una habitación $100.000 el primer día y por el
+resto $200.000 por día. Realice un algoritmo que determine el valor
+total a pagar por la habitación si la estadía fue de varios días.
+"""
+
+NEstadia = int(input('ingrese el numero de dias en el que se va a quedar en el hotel : '))
+habitacion = 0
+
+if NEstadia == 1:
+    habitacion = 100000
+    print(f' solo te hospedaras un dia con un costo de {habitacion}')
+if NEstadia > 1:
+        habitacion = NEstadia * 200000
+        print(f'te alojas {NEstadia} dias con un valor de {habitacion}')
