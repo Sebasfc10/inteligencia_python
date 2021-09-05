@@ -216,3 +216,7 @@ es = (final / 2) /4
 ordinario = (final / 2)/ 20
 
 print(f'se debe pagar el monto total {final} pero los primeros cuantro meses se deben pagar {es} y la otra mitad del prestamo se debe pagar en 20 cuotas de {ordinario}')
+
+"""
+Muchas gracias.
+"""
